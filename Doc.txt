@@ -1,0 +1,55 @@
+Api end point:
+
+JWT Authentication Api end point:-
+
+Token api end point:-
+method = POST
+http://127.0.0.1:8000/api/token/  ( Create the token)
+http://127.0.0.1:8000/api/token/verify/ ( verify the token)
+http://127.0.0.1:8000/api/token/refresh/ ( refresh the token)
+
+Create user api end point.
+method = POST
+http://127.0.0.1:8000/api/
+
+
+Product API:-
+
+Create Product Api end point:-
+method = POST
+http://127.0.0.1:8000/api/product/
+
+
+Retrieve All Product Api end point :-
+method = GET 
+http://127.0.0.1:8000/api/product/details/
+
+
+Retrieve Singe Product Api end point :-
+method = GET 
+http://127.0.0.1:8000/api/product/details/2  
+
+note:- 1 or 2 is product id
+
+Retrieve Product Api end point by pagination :-
+method = GET 
+http://127.0.0.1:8000/api/product/details/?p=2 
+
+note:-  p  and 2 is page_size 
+
+Update Product Api end point :-
+method = PUT 
+http://127.0.0.1:8000/api/product/details/1
+
+note:- 1 is product id.
+
+
+Delete Product Api end point :-
+method = delete 
+http://127.0.0.1:8000/api/product/details/1
+
+note:- 1 is product id.
+
+
+
+
